@@ -153,27 +153,32 @@ nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
+
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
 }
+
 .nav-toggle {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--clr-primary-5);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
+
 .nav-toggle:hover {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
+
 .logo {
   height: 40px;
 }
+
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
@@ -188,10 +193,15 @@ nav {
   background: var(--clr-primary-8);
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .social-icons {
   display: none;
+}
+
+.social-icons a:hover {
+  font-size: 1.2rem;
 }
 
 .links {
@@ -200,13 +210,8 @@ nav {
   transition: var(--transition);
 }
 
-.links li {
-  display: inline-block;
-}
-
-
 .show-links {
-  height: 4rem;
+  height: 10rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -245,6 +250,6 @@ nav {
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: var(--clr-primary-8);
   }
 }
